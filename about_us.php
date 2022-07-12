@@ -1,3 +1,4 @@
+<?php include 'header1.php'; ?>
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -9,31 +10,33 @@
     <div class="container-extra" style="text-align: center">
       <h1>Welcome to Tourist guide</h1>
 
-        <p>TouristGuide is Travel Agent’s digital booking platform partner.</p>
+        <h3>TouristGuide is Travel Agent’s digital booking platform partner.</h3>
 <h2>Our Values</h2>
 
-<h3>Tech Solution</h3>
+<h2>Tech Solution</h2>
 <p>New features will be added and released from time to time.
 Always get the latest features from regular releases.
 With our cloud computing, the platform is highly scalable to quickly to suit your situation.</p>
 
-<h3>All Rounded Support</h3>
+<h2>All Rounded Support</h2>
 
 <p>Automated Sales Report accessible via web portal or emailing to a dedicated recipient.
 Platform availability at 99.99% with full technical support.
 24/7 Multilingual Operational Support (Post Booking).</p>
-<h3>Tourist Guide is invisible</h3>
+<h2>Tourist Guide is invisible</h2>
 <p>Keeping your customers under your branding.</p>
 
-<h3>Transparent</h3>
+<h2>Transparent</h2>
 <p>The travel agent will be transparent with travel Management product costing and you will be able to manage your own pricing business rules.</p>
 
-<h3>Constantly Innovating</h3>
-<p>We never stop learning from our customers and partners. This helps us to keep innovating and bring the best practices/features into our platform.</p>
-<h3> So Pack your bags. We’re going on vacation! </h3>
+<h2>Constantly Innovating</h2>
+<p>We never stop learning from our customers and partners.</p>
+<p> This helps us to keep innovating and bring the best practices/features into our platform.</p>
+<h1> So Pack your bags. We’re going on vacation! </h1>
 
     </div>
 
 
   </body>
 </html>
+<?php include 'footer.php'; ?>

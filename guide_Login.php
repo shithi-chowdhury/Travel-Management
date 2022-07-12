@@ -5,7 +5,7 @@
     </head>
     <body>
        <div class="login-box">
-          <h1>Guider Login</h1>
+          <h1>Guide Login</h1>
           <form action="insert_guide_LoginForm.php" method="POST">
           <div class="textbox">
             <i class="fas fa-user"></i>

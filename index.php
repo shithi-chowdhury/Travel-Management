@@ -11,9 +11,8 @@
            <li class="active"><a><i class="fas fa-home"></i>Home</a>
            <div class="sub-menu-1">
                 <ul>
-                    <li><a href=""><i class="fas fa-search-plus"></i>Search</a></li>
-                    <li><a href=""><i class="fas fa-money-check-alt"></i>Offers</a></li>
-                    <li><a href=""><i class="fas fa-bookmark"></i>Bookings</a></li>
+                    <li><a href="offer.php"><i class="fas fa-money-check-alt"></i>Offers</a></li>
+                    <li><a href="info.php"><i class="far fa-question-circle"></i>Info</a>
                 </ul>
             </div>
            </li>
@@ -22,6 +21,7 @@
                  <ul>
                      <li><a href="tourist_signup.php">Signup Tourist</a></li>
                      <li><a href="guide_Signup.php">Signup TouristGuide</a></li>
+                     <li><a href="restaurant_signupForm.php">Signup Restaurant Manager</a></li>
 
                  </ul>
              </div>
@@ -31,31 +31,22 @@
                  <ul>
                      <li><a href="tourist_login.php">Login Tourist</a></li>
                      <li><a href="guide_Login.php">Login TouristGuide</a></li>
-
+                     <li><a href="restaurant_loginForm.php">Login Restaurant Manager</a></li>
                  </ul>
              </div>
-            <li><a><i class="fas fa-location-arrow"></i>Places</a></li>
+
+            <li><a href="place.php"><i class="fas fa-location-arrow"></i>Places</a></li>
             <li><a><i class="fas fa-book"></i>Know us</a>
             <div class="sub-menu-1">
                 <ul>
-                    <li><a href=""><i class="fas fa-phone"></i>Contact</a></li>
-                    <li><a href=""><i class="fas fa-mobile"></i>Mobile app</a></li>
-                    <li><a href=""><i class="fas fa-bullseye"></i>Objective</a></li>
-                    <li><a href="about_us.php"></i>about us</a></li>
-                    <li><a href="privacy.php"></i>privacy</a></li>
-                </ul>
-            </div>
-            </li>
-            <li><a><i class="far fa-question-circle"></i>Info</a>
-            <div class="sub-menu-1">
-                <ul>
-                    <li><a href=""><i class="fas fa-hotel"></i>Hotel</a></li>
-                    <li><a href=""><i class="fas fa-car"></i>Transport</a></li>
-                    <li><a href=""><i class="fas fa-male"></i>Guide</a></li>
+                    <li><a href="contact.php"><i class="fas fa-phone"></i>Contact</a></li>
+                    <li><a href="mobile.php"><i class="fas fa-mobile"></i>Mobile app</a></li>
+                    <li><a href="about_us.php"><i class="fas fa-bullseye"></i>About Us</a></li>
 
                 </ul>
             </div>
             </li>
+
 
         </ul>
 
@@ -64,7 +55,7 @@
            <div class="col">
                <h1>Tourist Guide</h1>
                <p>Come see the beautiful Bangladesh. A place of joy and happiness.River and hill sings as the nature flows through the vein of the country.Everybody exclaims in joy and wonder at the unforgettable and unimaginable beauty of this land. Onlookers are immersed in the fathomless depth of the ocean of beauty. </p>
-               <button type="button">Explore</button>
+
            </div>
            <div class="col">
            <div class="card card1">
@@ -90,3 +81,4 @@
 
     </body>
 </html>
+<?php include 'footer.php'; ?>

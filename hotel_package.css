@@ -1,18 +1,123 @@
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
+@import url('https://fonts.googleapis.com/css?family=Roboto:200,200i,300i,400,400i,500,500i');
+
+// material design shadows
+$box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+$img-box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+
+// bootstrap default card border-radius
+$card-border-radius: .25rem;
+
+body {
+	font-family: 'roboto', sans-serif;
+	background-color: #fefefe;
 }
 
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
+p {
+	opacity: .9;
+	font-size: .9rem;
 }
 
-tr:nth-child(even) {
-  background-color: #dddddd;
+.card {
+	background-color: white;
+	border: none;
+	box-shadow: $box-shadow;
+
+	.card-title {
+		font-weight: 400;
+		font-size: 1.6rem;
+	}
+
+	.card-subtitle {
+		font-weight: 500;
+		font-size: 1rem;
+		opacity: .5;
+	}
+
+
+	// Cascading Cards
+	&.card-cascade {
+
+		i {
+			border-radius: $card-border-radius;
+			box-shadow: $img-box-shadow;
+
+			img {
+				width: 100%;
+			}
+		}
+
+		[class*=card-img-] {
+			border-radius: $card-border-radius;
+			box-shadow: $img-box-shadow;
+		}
+
+		// wider cascading cards
+		&.card-cascade-wider {
+
+			i {
+				transform: scale(1.07);
+				margin-bottom: .8rem;
+			}
+
+		}
+
+		// Narrower cascading Cards
+		&.card-cascade-narrower {
+
+			i {
+				transform: scale(.92) translateY(-1.8rem);
+				margin-bottom: -1rem;
+			}
+
+		}
+	}
+
+
+	// Image Overlay cards
+	.card-img-overlay {
+		overflow: hidden;
+		border-radius: $card-border-radius;
+		box-shadow: $img-box-shadow;
+		background-color: rgba(20,20,20,.5);
+	}
+
 }
+
+
+.author{
+	font-family: inherit;
+	padding: 3em;
+	text-align: center;
+	width: 100%;
+	a:link,
+	a:visited{
+		color: #404040;
+		&:hover{
+			text-decoration: none;
+		}
+	}
+	.btn:link,
+	.btn:visited{
+		text-decoration: none;
+		display: inline-block;
+		font-family: inherit;
+		font-weight: 100;
+		color: white;
+		text-align: center;
+		vertical-align: middle;
+		user-select: none;
+		background-color: black;
+		padding: 1.5em 2rem;
+		border-radius: 1em;
+		transition: .5s all;
+		&:hover,
+		&:focus,
+		&:active{
+			background-color: lighten(black, 10%);
+		}
+	}
+}
+
 
 
 *
@@ -25,6 +130,10 @@ tr:nth-child(even) {
 }
 body
 {
+
+	  background-image: url("images/back3.jpg");
+	 background-repeat: no-repeat;
+	 background-attachment: scroll;
   background-size: cover;
   height: calc(100vh-80px);
   min-height: 740px;

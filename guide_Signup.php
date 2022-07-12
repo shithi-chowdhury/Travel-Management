@@ -2,13 +2,13 @@
     <head>
 
         <title> sign up form</title>
-        <link rel="stylesheet" href="guide_signup.css">
+        <link rel="stylesheet" href="style.css">
 
 
     </head>
     <body>
-       <div class="sign-up-form">
-         <img src ="user%20Icon.png">
+      <div class="bgi-imgCsignup">
+        <div class="contentCsignup">
           <form name = "signup" action="insert_guide_signup.php" style="border:1px solid #ccc" method="post" class="container">
             <div class="input-box">
 
@@ -35,7 +35,7 @@
               <label for="password"><b>Password</b></label><br>
               <input type="password" placeholder="Password" name="password" required><br>
 
-              <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+              <p>By creating an account you agree to our <a href="term.php" style="color:dodgerblue">Terms & conditions</a>.</p>
 
               <div class="clearfix">
 

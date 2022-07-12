@@ -8,7 +8,6 @@ if(
    isset($_POST['email']) &&
    isset($_POST['phone_number'])&&
    isset($_POST['address'])&&
-   isset($_POST['card'])&&
    isset($_POST['password'])
    )
    {
@@ -18,7 +17,6 @@ if(
      $email = $_POST['email'];
      $phone_number = $_POST['phone_number'];
      $password = $_POST['password'];
-     $card = $_POST['card'];
      $address = $_POST['address'];
 
      $sql1 = "SELECT tourist_email
@@ -35,8 +33,8 @@ if(
      }
 
      else {
-     $sql2 = "INSERT INTO tourist( tourist_lastName, tourist_firstName, tourist_email, tourist_phone, tourist_address, tourist_card_no,  tourist_password)
-             VALUES( '$lastName', '$firstName', '$email', $phone_number,'$address','$card', '$password')";
+     $sql2 = "INSERT INTO tourist( tourist_lastName, tourist_firstName, tourist_email, tourist_phone, tourist_address,  tourist_password)
+             VALUES( '$lastName', '$firstName', '$email', $phone_number,'$address', '$password')";
 
         $is_inserted = mysqli_query($conn, $sql2);
 

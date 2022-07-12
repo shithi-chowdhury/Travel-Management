@@ -27,11 +27,6 @@
     <br><input type="text" placeholder="Address" name="address" required><br>
 
 
-    <label for="text"><b>Card No</b></label><br>
-    <input type="text" placeholder="ab123" name="card" required><br>
-
-
-
     <label for="phone_number"><b>Phone Number</b></label><br>
     <input type="tel" placeholder="01*********" name="phone_number" pattern="[0]{1}[1]{1}[0-9]{3}[0-9]{6}" required><br>
 
@@ -42,12 +37,12 @@
 
 
 
-    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+    <p>By creating an account you agree to our <a href="term.php" style="color:dodgerblue">Terms & conditions</a>.</p>
 
     <div class="clearfix">
 
     <button type="submit" class="signupbtn">Register</button></a>
-    <button type="button" class="cancelbtn">Cancel</button></a>
+    <a href="index.php"><button type="button" class="cancelbtn">Cancel</button></a>
 
     </div>
     <p>Already have an account?<a href="tourist_login.php" style="color:white"> Click Here</a></p>
