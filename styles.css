@@ -1,0 +1,282 @@
+:root {
+	--main-color-theme : #39ac73;
+
+	/*Copy and Paste one of the color codes to change theme:
+	Alternate colors:
+
+	#6f6fae purple/violetish
+	#1d8ea7 Aqua
+	#39ac73 - Default Theme
+	*/
+}
+::-moz-selection {
+  color: white;
+  background: var(--main-color-theme);
+}
+
+::selection {
+  color: white;
+  background: var(--main-color-theme);
+}
+/*####### BASIC ###############*/
+
+body {
+	margin: 0;
+	padding: 0;
+}
+.subtitle {
+	text-align: center;
+	color: black;
+}
+.wrapper {
+	margin: 5vh 10vh;
+}
+
+/*########### HEADER BEFORE ##############*/
+
+.main-header .container-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background: #f2f2f2;
+}
+
+.main-nav ul {
+	margin: 1em 0 .5em;
+	text-align: center;
+}
+.main-nav li {
+	display: inline;
+}
+.main-nav a {
+	display: inline-block;
+	padding: .5em 1.5em;
+	text-decoration: none;
+	color: var(--main-color-theme);
+}
+.main-nav a:hover {
+	text-decoration: underline;
+}
+.mh-logo a {
+	text-decoration: none;
+	color: var(--main-color-theme);
+	opacity: 0.8;
+}
+.mh-logo a:hover {
+	text-decoration: none;
+	opacity: 1;
+}
+
+/*########### HEADER PROFILE ##############*/
+
+.profile-header .container-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background: var(--main-color-theme);
+}
+
+.profile-nav ul {
+	margin: 1em 0 .5em;
+	text-align: center;
+}
+.profile-nav li {
+	display: inline;
+}
+.profile-nav a {
+	display: inline-block;
+	padding: .5em 1.5em;
+	text-decoration: none;
+	color: #f2f2f2;
+}
+.profile-nav a:hover {
+	text-decoration: underline;
+}
+.mh-logo-profile a {
+	text-decoration: none;
+	color: #f2f2f2;
+	opacity: 1;
+}
+.mh-logo-profile a:hover {
+	text-decoration: none;
+	opacity: 0.8;
+}
+
+/*######### INDEX LANDING #############*/
+
+.landing {
+	min-height: 90vh;
+	background: var(--main-color-theme);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.landing .landing-image {
+	min-width: 40%;
+	max-height: 60vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.landing .landing-image > img {
+	width: 80vh;
+	opacity: 0.9;
+	margin-left: 50px;
+}
+.landing .landing-image > img:hover {
+	opacity: 1;
+}
+
+.landing .landing-start {
+	margin-top: 8vh;
+	min-width: 40%;
+	min-height: 40vh;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.landing .landing-start .login-form {
+	min-height: 15vh;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 0.8em;
+	color: white;
+}
+.landing .landing-start .login-title {
+	color: white;
+}
+.login-form .login-box {
+	padding: 6px;
+	margin-top: 8px;
+	font-size: 12px;
+	border: 1px dotted;
+	border-style: ridge;
+}
+.login-form .login-button {
+	cursor: pointer;
+    background: #262626;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/*####### INDEX PACKAGE ################*/
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	max-width: 220px;
+}
+
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+	padding: 2px 16px;
+}
+
+.feature-package {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+.card {
+	flex: 1 1 30%;
+	min-width: 10%;
+	max-height: 250px;
+	margin: 30px 40px;
+	display: block;
+}
+.card .container h5, h6 {
+	text-align: center;
+	color: grey;
+}
+.card .container h5 {
+	color: black;
+}
+
+.card .card-image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 150px;
+}
+.card .card-image img {
+	max-height: 80px;
+}
+.card .card-image img:hover {
+	max-height: 90px;
+	transition: 0.3s;
+}
+
+.card .container {
+	max-height: 100px;
+}
+
+
+
+
+/* ############ FOOTER ############### */
+
+.footer {
+  min-width: 100%;
+  min-height: 40vh;
+  background: #262626;
+}
+.link a {
+	color: var(--main-color-theme);
+	text-align: center;
+	text-decoration: none;
+}
+.link a:hover {
+	color: grey;
+}
+#separator {
+	min-height: 30vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.foot1 {
+	min-width: 30%;
+	max-width: 30%;
+	max-height: 20vh;
+	min-height: 20vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.foot2 {
+	min-width: 30%;
+	min-height: 20vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.foot3 {
+	min-height: 10vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.foot1 .link {
+	max-height: 50px;
+	max-height: 50px;
+	background: var(--main-color-theme);
+	border-radius: 10px;
+}
+.foot1 .link a img {
+	max-height: 50px;
+	max-width: 50px;
+}
