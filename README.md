@@ -46,7 +46,7 @@ every page of this website has same footer. (footer.php)
 
 
 
-*tourist*
+##tourist
 
 
 
@@ -168,8 +168,7 @@ and also, can delete their page.
 
 
 
-
-	*Restaurant*
+##Restaurant
 
 
 --------------------------------------
