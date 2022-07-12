@@ -46,7 +46,7 @@ every page of this website has same footer. (footer.php)
 
 
 
-***tourist***
+*tourist*
 
 
 
@@ -86,30 +86,30 @@ all transports (Air, Water or Bus)
 from Dhaka to Chittagong will be enlisted.
 
 
------------------
+------------------------------
 	payment page
------------------
+------------------------------
 in this page you have to pay 30% of total amount by bkash, if you are 1st customer then you will get 15% discount.
 
 
 
----------------
+-----------------------------------
 	booking history page
---------------------
+-----------------------------------
 here tourist can view there booking history. Via get method
 
 
--------------------
+----------------------------------
 	profile page
------------------
+----------------------------------
 in this page tourist can view their personal info which they give during signup except password.
  they can edit their information and also can upload their photo; they can change their password via post method
 and also, can delete their profile. after deleting their profile, they have to sign up again for booking.
 
 
--------------------
+----------------------------------
 	Restaurant page
------------------
+----------------------------------
 When tourists select any city, they will be able to see an option named 'Restaurant' in the navbar. 
 If they click this option, 
 they will be redirected to restaurant page, 
@@ -117,9 +117,9 @@ where they can see a list of restaurants situated in the selected city.
 
 
 
--------------------
+----------------------------------------
 	Restaurant details page
------------------
+----------------------------------------
 In the restaurant page, tourists can select any restaurant they like.
  After clicking 'See details' button, they will be
 redirected to restaurant details page. In this page, 
@@ -132,13 +132,13 @@ about, food image, food name, cost and description.
 
 
 
-================================================
-	Guide
-================================================
 
---------------------
+	*Guide*
+
+
+-----------------------------------
 	Guide dashboard
---------------------
+-----------------------------------
 When a guide logs in his/her account, that guide will be redirected in this page.
  After booking a package by tourist, 
 details about the package along with tourist information will be shown in this page.
@@ -152,9 +152,9 @@ and logout.
 
 
 
-----------------
+----------------------------------
 	Guide profile
-----------------
+----------------------------------
 In this page guide can view their personal info which they give during signup except password.
 they can edit their information and also can upload their photo, they can change their password,
 and also, can delete their page.
@@ -168,13 +168,13 @@ and also, can delete their page.
 
 
 
-=========================================================
-	Restaurant
-=========================================================
 
-------------------------
+	*Restaurant*
+
+
+--------------------------------------
 	Restaurant dashboard
--------------------------
+--------------------------------------
 After logging in as restaurant manager, they will be redirected in this page. If they able to perform
 successful food enlistment, these food details such as food name, image, cost and description will be
 shown in this page. In the navbar there is option named 'Add food'.
